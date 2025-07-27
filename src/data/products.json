@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 89.99,
+        "description": "High quality wireless headphones with noise cancellation.",
+        "category": "Electronics",
+        "stock": 32,
+        "rating": 4.5,
+        "imgUrl": "/public/images/Headphones.avif"
+    },
+    {
+        "id": 2,
+        "name": "Gaming Laptop",
+        "price": 1399.99,
+        "description": "Powerful gaming laptop with high refresh rate screen.",
+        "category": "Electronics",
+        "stock": 12,
+        "rating": 4.7,
+        "imgUrl": "/public/images/laptop.avif"
+    },
+    {
+        "id": 3,
+        "name": "Organic Bananas",
+        "price": 1.49,
+        "description": "Fresh organic bananas from local farms.",
+        "category": "Grocery",
+        "stock": 150,
+        "rating": 4.8,
+        "imgUrl": "/public/images/Bananas.avif"
+    },
+    {
+        "id": 4,
+        "name": "Bluetooth Speaker",
+        "price": 59.99,
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "category": "Electronics",
+        "stock": 47,
+        "rating": 4.3,
+        "imgUrl": "/public/images/Speaker.avif"
+    },
+    {
+        "id": 5,
+        "name": "School Backpack",
+        "price": 29.95,
+        "description": "Durable and waterproof school backpack.",
+        "category": "Bags",
+        "stock": 78,
+        "rating": 4.1,
+        "imgUrl": "/public/images/Backpack.avif"
+    },
+    {
+        "id": 6,
+        "name": "Digital Watch",
+        "price": 19.99,
+        "description": "Simple digital watch with stopwatch and alarm.",
+        "category": "Accessories",
+        "stock": 120,
+        "rating": 4.0,
+        "imgUrl": "/public/images/Digital.avif"
+    },
+    {
+        "id": 7,
+        "name": "Smartphone",
+        "price": 799.99,
+        "description": "Latest model smartphone with AMOLED display.",
+        "category": "Electronics",
+        "stock": 25,
+        "rating": 4.6,
+        "imgUrl": "/public/images/Smartphone.avif"
+    },
+    {
+        "id": 8,
+        "name": "Running Shoes",
+        "price": 59.99,
+        "description": "Comfortable running shoes for daily training.",
+        "category": "Footwear",
+        "stock": 65,
+        "rating": 4.4,
+        "imgUrl": "/public/images/Running.avif"
+    },
+    {
+        "id": 9,
+        "name": "Coffee Maker",
+        "price": 49.99,
+        "description": "Automatic coffee maker with timer and warmer.",
+        "category": "Home Appliances",
+        "stock": 30,
+        "rating": 4.2,
+        "imgUrl": "/public/images/Coffee.avif"
+    },
+    {
+        "id": 10,
+        "name": "Yoga Mat",
+        "price": 14.99,
+        "description": "Non-slip yoga mat for exercise and stretching.",
+        "category": "Fitness",
+        "stock": 88,
+        "rating": 4.1,
+        "imgUrl": "/public/images/Yoga.avif"
+    },
+    {
+        "id": 11,
+        "name": "LED Desk Lamp",
+        "price": 24.99,
+        "description": "Adjustable LED desk lamp with touch controls.",
+        "category": "Home Decor",
+        "stock": 50,
+        "rating": 4.3,
+        "imgUrl": "/public/images/Desk.avif"
+    },
+    {
+        "id": 12,
+        "name": "Water Bottle",
+        "price": 9.99,
+        "description": "Reusable stainless steel water bottle.",
+        "category": "Accessories",
+        "stock": 100,
+        "rating": 4.5,
+        "imgUrl": "/public/images/Bottle.avif"
+    },
+    {
+        "id": 13,
+        "name": "Electric Kettle",
+        "price": 34.99,
+        "description": "Fast-boil electric kettle with auto shutoff.",
+        "category": "Kitchen",
+        "stock": 42,
+        "rating": 4.2,
+        "imgUrl": "/public/images/Kettle.avif"
+    },
+    {
+        "id": 14,
+        "name": "Office Chair",
+        "price": 129.99,
+        "description": "Ergonomic office chair with lumbar support.",
+        "category": "Furniture",
+        "stock": 18,
+        "rating": 4.6,
+        "imgUrl": "/public/images/Office.avif"
+    },
+    {
+        "id": 15,
+        "name": "E-book Reader",
+        "price": 119.99,
+        "description": "Lightweight e-book reader with high-contrast screen.",
+        "category": "Electronics",
+        "stock": 22,
+        "rating": 4.7,
+        "imgUrl": "/public/images/E-book Reader.avif"
+    }
+]
