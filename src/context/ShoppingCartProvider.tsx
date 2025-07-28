@@ -1,9 +1,12 @@
 import { useState, type ReactNode } from "react";
 import { ShoppingCartContext } from "./ShoppingCartContext";
+import CartPopOver from './../components/CartPopOver';
+import { useLocalStorage } from './../hooks/useLocalStorage';
 
 type CartItem = {
     id: number,
-    quantity: number
+    quantity: number,
+
 }
 export type ShoppingCartContextType = {
     getItemQuantity: (id: number) => number;
@@ -25,7 +28,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProps) {
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isOpen, setIsOpen] = useState(false)
-    const [cartItems, setCartItems] = useState<CartItem[]>([]);
+    const [cartItems, setCartItems] = useLocalStorage<CartItem[]>("cartItemValue", []);
     const cartQuantity = cartItems.reduce((quantity, item) => item.quantity + quantity, 0);
     const openCart = () => setIsOpen(true);
     const closeCart = () => setIsOpen(false);
@@ -63,6 +66,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProps) {
             return currItems.filter(item => item.id !== id);
         });
     }
+    <CartPopOver />
     return (
         <ShoppingCartContext.Provider value={{ getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart, cartItems, cartQuantity, openCart, closeCart }}>
             {children}
@@ -72,4 +76,3 @@ export function ShoppingCartProvider({ children }: ShoppingCartProps) {
 
 
 
-// لحد  بل ظبط عند تجهيز العربه
